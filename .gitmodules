@@ -1,0 +1,6 @@
+[submodule "stf2"]
+	path = stf2
+	url = https://github.com/DeviceFarmer/stf
+[submodule "devicefarm-ci-tool"]
+	path = devicefarm-ci-tool
+	url = https://github.com/artemnikitin/devicefarm-ci-tool

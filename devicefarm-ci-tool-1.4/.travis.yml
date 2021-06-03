@@ -1,0 +1,13 @@
+language: go
+
+go:
+ - 1.x
+
+install:
+ - go get -u golang.org/x/lint/golint
+
+script:
+ - make
+
+after_success:
+ - curl --request POST "https://goreportcard.com/checks" --data "repo=github.com/artemnikitin/devicefarm-ci-tool"
